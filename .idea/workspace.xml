@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f1c4f67-8a31-4454-bacd-68307620419f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_create_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/tag_create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/view-0.1-py3.7.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/view-0.1-py3.7.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/view-0.1-py3.7.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/view-0.1-py3.7.egg-info/installed-files.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/view-0.1-py3.7.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_update_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/tag_update_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
@@ -170,7 +162,8 @@
       <option name="presentableId" value="Default" />
       <updated>1568630560612</updated>
       <workItem from="1568630562974" duration="15080000" />
-      <workItem from="1568700524440" duration="21159000" />
+      <workItem from="1568700524440" duration="21673000" />
+      <workItem from="1568793854503" duration="3068000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1568631597454</created>
@@ -207,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568711689520</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Make classes for creating Posts and Tags">
+      <created>1568727422426</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1568727422426</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +233,7 @@
     <MESSAGE value="Add bootstrap and create base html patterns" />
     <MESSAGE value="Create Post model, Index pattern and Detail" />
     <MESSAGE value="Create Post tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Post tags" />
+    <MESSAGE value="Make classes for creating Posts and Tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make classes for creating Posts and Tags" />
   </component>
 </project>
