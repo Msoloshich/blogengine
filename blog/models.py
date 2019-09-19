@@ -55,4 +55,4 @@ class Tag(models.Model):
         return reverse('tag_detail_url', kwargs={'slug': self.slug})
 
     class Meta:
-        ordering=['title']
+        ordering = ['title']
